@@ -2,14 +2,14 @@
 name: native-chinese-expression
 description: 一条给 AI 助手的语言规则，专治“不中不西”：AI 回答里一句话夹一两个外文单词（比如“这个 feature 需要 refactor 一下”），看着费劲、读着别扭。装上本技能后，AI 面向中国普通读者时用纯正、本土化的中文表达，能翻译成中文的术语就翻译，而不是甩一个外文词。规则的核心是“语言为谁服务”：面向普通读者，中文为主；面向机器的内容（路径名、文件名、代码、命令）本来就该用英文，保留英文；面向程序员或外国读者，可以中英混排。不是一刀切地“不许出现英文”，而是让每句话都用读者最舒服的语言。适合：看 AI 回复总觉得“翻译腔”“夹洋文”别扭的使用者，以及需要用 AI 写公众号、公文、报告等正式中文材料的人。触发词：不中不西、中英混编、本土化表达、纯正中文、中文表达规范、别夹洋文、说人话、翻译腔、native Chinese、no code-mixing。
 agent_created: true
-version: 1.0.4
+version: 1.0.5
 author: 天工创新坊
 license: CC BY 4.0
 display_name: "母语中文表达"
 display_name_en: Native Chinese Expression
-trigger: ["说人话", "别夹洋文", "中英混编", "本土化表达", "纯正中文"]
+trigger: ["说人话", "别夹洋文", "中英混编", "本土化表达", "纯正中文", "speak plainly", "no English mixed in", "localized expression", "native Chinese"]
 description_zh: "使 AI 输出本土化、规范的中文，避免中英文混编"
-description_en: "Make AI output native Chinese without code-mixing"
+description_en: "Make AI output localized, standard Chinese and avoid mixing English words into Chinese sentences"
 category: content
 ---
 
